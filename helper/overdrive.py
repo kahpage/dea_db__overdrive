@@ -163,7 +163,7 @@ if __name__ == "__main__":
             ],
             locations=locations,
             # description=None,
-            # comments=None,
+            comments="Simultaneous with VOCALOID STATION",
             last_edited="2026.06.20",
         )
 
