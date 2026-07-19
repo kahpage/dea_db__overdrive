@@ -80,7 +80,8 @@ if __name__ == "__main__":
         ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.291773410464!2d136.65213707592187!3d36.57118607231341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8337016c1e50f%3A0x5ddf18a0914570b2!2sIT%20Business%20Plaza%20Musashi!5e0!3m2!1sen!2sfr!4v1781941178056!5m2!1sen!2sfr",
+                coordinates=(36.5713867, 136.6544585),
+                address="14-31 Musashimachi, Kanazawa, Ishikawa 920-0855, Japan",
                 description="石川県金沢市武蔵町14番31号ITビジネスプラザ武蔵　6F交流室",
                 sources=[
                     Source(
@@ -88,6 +89,9 @@ if __name__ == "__main__":
                         (ReliabilityTypes.Reliable, OriginTypes.OfficialExt),
                     )
                 ],
+                # comments=None,
+                imageUrl="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?output=thumbnail&cb_client=maps_sv.tactile.gps&panoid=2FSBs1hD8xg_CjyFnQAH_w&w=1177&h=580&thumb=2&yaw=136.62485&pitch=0",
+                url="https://maps.app.goo.gl/1FcJLuPW7FMkz5gw5",
             ),
         ]
         event = Event(
@@ -139,7 +143,8 @@ if __name__ == "__main__":
         ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.291773410464!2d136.65213707592187!3d36.57118607231341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8337016c1e50f%3A0x5ddf18a0914570b2!2sIT%20Business%20Plaza%20Musashi!5e0!3m2!1sen!2sfr!4v1781941178056!5m2!1sen!2sfr",
+                coordinates=(36.5713867, 136.6544585),
+                address="14-31 Musashimachi, Kanazawa, Ishikawa 920-0855, Japan",
                 description="石川県金沢市武蔵町14-31ITビジネスプラザ武蔵5F・6F",
                 sources=[
                     Source(
@@ -147,6 +152,9 @@ if __name__ == "__main__":
                         (ReliabilityTypes.Reliable, OriginTypes.OfficialExt),
                     )
                 ],
+                # comments=None,
+                imageUrl="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?output=thumbnail&cb_client=maps_sv.tactile.gps&panoid=2FSBs1hD8xg_CjyFnQAH_w&w=1177&h=580&thumb=2&yaw=136.62485&pitch=0",
+                url="https://maps.app.goo.gl/1FcJLuPW7FMkz5gw5",
             ),
         ]
         event = Event(
